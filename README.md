@@ -32,3 +32,99 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timetable</title>
+</head>
+<body>
+
+<h1>Study Timetable</h1>
+
+<a href="index.html">Back Home</a>
+
+<table border="1">
+    <tr>
+        <th>Day</th>
+        <th>Subject</th>
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td>Mathematics</td>
+    </tr>
+    <tr>
+        <td>Tuesday</td>
+        <td>Computer Studies</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>Business Studies</td>
+    </tr>
+</table>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flashcards</title>
+    <style>
+        body { font-family: Arial; text-align: center; }
+        .card {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Flashcards</h1>
+
+<a href="index.html">Back Home</a>
+
+<div class="card">
+    <h2>What is a computer?</h2>
+    <p id="answer" style="display:none;">
+        An electronic device that processes data.
+    </p>
+
+    <button onclick="showAnswer()">Show Answer</button>
+</div>
+
+<script>
+function showAnswer() {
+    document.getElementById("answer").style.display = "block";
+}
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+</head>
+<body>
+
+<h1>Contact Us</h1>
+
+<a href="index.html">Back Home</a>
+
+<form>
+    Name:<br>
+    <input type="text"><br><br>
+
+    Email:<br>
+    <input type="email"><br><br>
+
+    Message:<br>
+    <textarea></textarea><br><br>
+
+    <input type="submit" value="Send">
+</form>
+
+</body>
+</html>
+
