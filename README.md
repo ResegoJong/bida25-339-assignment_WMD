@@ -1,5 +1,4 @@
-# bida25-339-assignment_WMD
-<!DOCTYPE html>
+# bida25-339-assignment_WMD<!DOCTYPE html>
 <html>
 <head>
     <title>Student Study Hub</title>
